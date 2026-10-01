@@ -1,0 +1,16 @@
+{
+  "individual_calibrated_oof": {
+    "cb": 0.945130153514276,
+    "xgb": 0.9440715156040029,
+    "lgb": 0.9435370459782594
+  },
+  "calibrated_stack_oof_auc": 0.9451760999371025,
+  "raw_stack_oof_auc": 0.945239,
+  "best_single_model_oof": 0.945243,
+  "avg_calibrated_oof_auc": 0.9448102281466959,
+  "final_meta_coefs": [
+    5.3140654172007835,
+    1.4683784261769128,
+    0.0790557349185661
+  ]
+}

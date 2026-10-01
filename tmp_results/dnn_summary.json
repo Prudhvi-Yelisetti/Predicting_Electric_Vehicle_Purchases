@@ -1,0 +1,46 @@
+{
+  "oof_auc": 0.9419436629595516,
+  "fold_aucs": [
+    0.9409211030254303,
+    0.9418374288752815,
+    0.9424943743189658,
+    0.9424839779412819,
+    0.9422132506650752
+  ],
+  "best_tree_model_oof": 0.945243,
+  "corr_with_catboost": 0.9867955516428372,
+  "corr_with_xgboost": 0.9871564202181616,
+  "corr_with_lightgbm": 0.9893485341731639,
+  "cat_cardinalities": {
+    "Gender": 3,
+    "City_Type": 3,
+    "Current_Car_Type": 4,
+    "Home_Charging_Possible": 2,
+    "Subsidy_Available": 2,
+    "Range_Anxiety_Level": 3,
+    "Environmental_Concern_Level": 5,
+    "Number_of_Cars_Owned": 4,
+    "inc_d0": 10,
+    "inc_d1": 10,
+    "inc_d2": 10,
+    "inc_d3": 10,
+    "inc_d4": 10,
+    "inc_d5": 2
+  },
+  "emb_dims": {
+    "Gender": 2,
+    "City_Type": 2,
+    "Current_Car_Type": 2,
+    "Home_Charging_Possible": 2,
+    "Subsidy_Available": 2,
+    "Range_Anxiety_Level": 2,
+    "Environmental_Concern_Level": 3,
+    "Number_of_Cars_Owned": 2,
+    "inc_d0": 5,
+    "inc_d1": 5,
+    "inc_d2": 5,
+    "inc_d3": 5,
+    "inc_d4": 5,
+    "inc_d5": 2
+  }
+}

@@ -1,0 +1,32 @@
+# Environments (regenerable - see requirements.txt)
+.venv/
+comp_env/
+
+# Data (competition data - regenerate via Kaggle API / feature scripts;
+# some of this may not be redistributable per competition rules anyway)
+Data/
+playground-series-s6e9.zip
+
+# Model artifacts - regenerable from the *.py scripts, large and binary
+*.npy
+tmp_results/*.log
+
+# Submission CSVs - regenerable, bulky (id + prob per row)
+submissions/
+submission_dnn_seedbag.csv
+
+# CatBoost training scratch dirs (written fresh every run)
+catboost_info/
+**/catboost_info/
+
+# Logs
+logs/
+
+# Jupyter / Python cruft
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Kaggle credentials - should never be in the repo anyway (lives in ~/.kaggle/)
+kaggle.json

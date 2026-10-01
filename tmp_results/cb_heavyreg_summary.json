@@ -1,0 +1,16 @@
+{
+  "heavy_params": {
+    "learning_rate": 0.04304867132714463,
+    "depth": 5,
+    "l2_leaf_reg": 31.0,
+    "min_data_in_leaf": 448,
+    "bagging_temperature": 1.0470518167824743,
+    "random_strength": 2.685717108403337,
+    "border_count": 196
+  },
+  "heavy_oof_auc": 0.9459353891415262,
+  "baseline_oof_auc": 0.9459428961980856,
+  "delta": -7.507056559385994e-06,
+  "bootstrap_z": -0.6575640975627337,
+  "verdict": "NOT significant - reject, do not adopt"
+}

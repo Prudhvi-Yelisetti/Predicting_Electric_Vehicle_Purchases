@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "bagged_oof_auc": 0.9449943606642632,
+  "old_dnn_oof_stale_features": 0.941944,
+  "corr_with_catboost_seedbag": 0.9959238171457967,
+  "corr_with_xgboost_nested_te": 0.995440156114076,
+  "cb_seedbag_auc_for_reference": 0.945997
+}
